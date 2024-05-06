@@ -1,7 +1,17 @@
+using FirstAzureApp.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connstr = builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING");
+
+builder.Services.AddDbContext<CustomerDbContext>(options =>
+{
+    options.UseSqlServer(connstr);
+});
 
 var app = builder.Build();
 
