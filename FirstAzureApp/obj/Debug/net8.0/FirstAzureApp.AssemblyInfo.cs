@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstAzureApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+715b1e4a6b805e4308a930e54c2f273d6044124d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d33d9ed37b7ece685a44e9eef22a204b1b3d1d18")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstAzureApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstAzureApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
